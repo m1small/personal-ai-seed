@@ -69,7 +69,7 @@ Walk through the Foundation concepts one at a time. For each concept:
 "Structured information that survives across sessions is stored in **Data Stores** — things like contact lists, health metrics, financial records. Does Data Store work, or would you call these Datasets, Records, Collections?"
 
 #### The growth cycle
-"The system improves through use. Every session is one turn of **The Loop** — you use the system (ops), then improve it (dev), and the two sides feed each other. Does The Loop resonate, or do you have a different way to think about continuous improvement?"
+"The system improves through use. Every session is one turn of the **Growth and Development Loop** — you use the system (ops), then improve it (dev), and the two sides feed each other. Does that name resonate, or do you have a different way to think about continuous improvement?"
 
 **Guidelines for this step:**
 - Don't rush. Let the user think about each term. Some will be obvious ("Agent is fine"), some will spark genuine reflection.
@@ -114,16 +114,16 @@ Follow the standard environment state production process:
 4. Update `CLAUDE.md` (or equivalent) to reference the new environment file
 5. Commit
 
-### 6. The Loop Introduction
+### 6. Growth and Development Loop Introduction
 
 Close the planting conversation by explaining how growth works, using the user's vocabulary.
 
-**Key message:** "Your system improves through use. When you use it to do real work (that's Execution Mode), you discover what's missing. When you improve the system itself (that's Developer Mode), you make future work better. That cycle — **[their term for The Loop]** — is how your tree grows. Every session is one turn."
+**Key message:** "Your system improves through use. When you use it to do real work (that's Execution Mode), you discover what's missing. When you improve the system itself (that's Developer Mode), you make future work better. That cycle — **[their term for Growth and Development Loop]** — is how your tree grows. Every session is one turn."
 
 **Set expectations for next session:**
 - "Next time, you could create your first [their term for Agent] for your [their branch] — a specialist that knows your domain."
 - "Or you could jump straight into Execution Mode and use what we have. The system will tell us what needs building."
-- "Either way, the [their term for The Loop] takes hold. Building and using happen together."
+- "Either way, the [their term for Growth and Development Loop] takes hold. Building and using happen together."
 
 ## After Planting
 

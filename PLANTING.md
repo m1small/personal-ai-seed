@@ -86,9 +86,9 @@ Now use your system. Ask your agent to do real work. The AI will:
 
 ### Capture your first retrospective
 
-At session close, the AI captures a retrospective: what worked, what caused friction, what to improve. This is The Loop in action — using the system teaches you what to build next.
+At session close, the AI captures a retrospective: what worked, what caused friction, what to improve. This is the Growth and Development Loop in action — using the system teaches you what to build next.
 
-## Phase 4: The Loop Takes Hold
+## Phase 4: The Growth and Development Loop Takes Hold
 
 From here, growth is organic:
 
@@ -96,7 +96,7 @@ From here, growth is organic:
 - **Execution Mode sessions** use the system to get work done — and surface what needs building.
 - **Dream Mode sessions** (optional) give your AI a reflective space — `dream/CLAUDE.md` bootstraps it.
 
-The two sides feed each other. That's The Loop. That's how your tree grows.
+The two sides feed each other. That's the Growth and Development Loop. That's how your tree grows.
 
 ## What Not to Do
 

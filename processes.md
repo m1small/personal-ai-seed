@@ -12,9 +12,9 @@
 
 Processes are referenced by name throughout the library. When adding a new process, choose a unique name.
 
-## The Loop
+## Growth and Development Loop
 
-The continuous dev/ops cycle through which the system develops and operates. Each session is one iteration. Change is the steady state — The Loop makes continuous improvement structural, not aspirational.
+The continuous dev/ops cycle through which the system develops and operates. Each session is one iteration. Change is the steady state — the Growth and Development Loop makes continuous improvement structural, not aspirational.
 
 **Stages:**
 
@@ -42,7 +42,7 @@ The continuous dev/ops cycle through which the system develops and operates. Eac
 | The AI Model | Executes both sides. Normalizes drift (ops), produces artifacts (dev), sweeps for health (ops), triages into work (dev). Spawns and executes subroutines to parallelize work. |
 | The System | Shared state. The library is the deployed environment. Commits are deployments. The directory structure is the resource manifest. Processes are the pipeline definitions. |
 
-**Principle:** Not every session runs every stage. The Loop is the full cycle; a session contributes to whichever stages the work requires. Over time, every stage gets exercised.
+**Principle:** Not every session runs every stage. The Growth and Development Loop is the full cycle; a session contributes to whichever stages the work requires. Over time, every stage gets exercised.
 
 ## Version Control
 
@@ -171,7 +171,7 @@ Plan state is tracked in the plan's filename via prefix markers. The filesystem 
 
 Core rules enforced via `.claude/rules/session-management.md`.
 
-Each session is one iteration of The Loop. Not every session runs every stage — the work determines which stages are exercised.
+Each session is one iteration of the Growth and Development Loop. Not every session runs every stage — the work determines which stages are exercised.
 
 1. **Initialize** — Per session management rules.
 2. **Mode** — The principal declares session mode. Register in session state with mode and start time. Commit.
@@ -242,7 +242,7 @@ How agents earn, lose, and apply trust.
 
 ## Sweep
 
-The ops-side inspection stage of The Loop. Scans all artifacts to identify conformance issues, staleness, and extension opportunities. Run at session close after major work.
+The ops-side inspection stage of the Growth and Development Loop. Scans all artifacts to identify conformance issues, staleness, and extension opportunities. Run at session close after major work.
 
 1. Read all active artifacts in the library. Exclude `plans/archive/`, `dream/`, `data/`, and `outputs/` — archived plans, dream outputs, data store contents, and execution outputs are not active library artifacts. Read into the session's main context — artifacts loaded during initialization do not need to be re-read. Do not delegate reads to subagents; cross-artifact pattern recognition requires artifacts to be co-present in context. Subagents are only appropriate if the library exceeds the session's context capacity.
 2. Check each artifact against its constraining schema for missing or non-conforming fields.
@@ -334,7 +334,7 @@ When an Execution Mode output contains domain knowledge reusable beyond the imme
 
 ## Triage
 
-The ops-side disposition stage of The Loop. Assesses observations produced by Sweep (or other sources), groups related items, and determines disposition.
+The ops-side disposition stage of the Growth and Development Loop. Assesses observations produced by Sweep (or other sources), groups related items, and determines disposition.
 
 1. Collect all active REVIEW markers across the library, all entries in `system/state-retrospectives.md`, any Health Check observations, and any Vital Signs Read breaches.
 2. Group related items by theme or affected area.
@@ -354,7 +354,7 @@ The ops-side disposition stage of The Loop. Assesses observations produced by Sw
 
 ## Drift Detection
 
-The ops-side normalization stage of The Loop. Detects and normalizes changes that occurred between sessions. Run during initialization, before session work begins.
+The ops-side normalization stage of the Growth and Development Loop. Detects and normalizes changes that occurred between sessions. Run during initialization, before session work begins.
 
 Drift is the steady state — sessions hang, the principal edits files, other surfaces write without committing. Change is continuous. Drift Detection normalizes whatever it finds, regardless of source.
 

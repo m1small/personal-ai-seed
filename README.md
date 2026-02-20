@@ -25,13 +25,13 @@ This is the seed. What grows from it is your tree.
                  │               │               │
                  └───────────────┼───────────────┘
                                  │
-                    ╭────────────┴────────────╮
-                    │   Processes & Conventions│  ← Trunk
-                    │   The Loop               │    How work happens.
-                    │   Session Lifecycle       │    The way of working that
-                    │   Trust Progression       │    makes everything above
-                    │   Schemas & Rules         │    possible.
-                    ╰────────────┬────────────╯
+                 ╭───────────────┴───────────────╮
+                 │   Processes & Conventions      │  ← Trunk
+                 │   Growth and Development Loop  │    How work happens.
+                 │   Session Lifecycle             │    The way of working that
+                 │   Trust Progression             │    makes everything above
+                 │   Schemas & Rules               │    possible.
+                 ╰───────────────┬───────────────╯
                                  │
                     ╭────────────┴────────────╮
                     │   Your Data              │  ← Personal Data
@@ -54,13 +54,13 @@ This is the seed. What grows from it is your tree.
 
 **Trust-governed.** Agents start untrusted. They earn autonomy through demonstrated performance tracked in a trust ledger. You control the blast radius of every capability.
 
-**Self-improving.** The Loop — a continuous dev/ops cycle — means your system gets better through use. Every session is an iteration. Errors and friction are inputs, not waste. You build and execute concurrently.
+**Self-improving.** The Growth and Development Loop — a continuous dev/ops cycle — means your system gets better through use. Every session is an iteration. Errors and friction are inputs, not waste. You build and execute concurrently.
 
 **Session-native.** Each conversation has a lifecycle: initialize, scope, work, review, close. Drift detection normalizes what changed between sessions. Nothing falls through the cracks.
 
 ## How It Grows
 
-The Loop is the growth mechanism:
+The Growth and Development Loop is the growth mechanism:
 
 ```
     ╭──── Dev ────╮         ╭──── Ops ────╮
@@ -114,7 +114,7 @@ The seed gives you the trunk — processes, schemas, governance, and conventions
 
 Personal AI means you are building a custom system — your own processes, your own agents, your own domain knowledge, your own agentic workflows. This isn't about prompting better. It's about building a system that compounds your capability over time.
 
-The seed teaches this through doing. Your first session is a conversation that finds a common language. From there, you don't read about The Loop — you live it.
+The seed teaches this through doing. Your first session is a conversation that finds a common language. From there, you don't read about the Growth and Development Loop — you live it.
 
 ## Getting Started
 

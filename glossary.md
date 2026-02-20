@@ -17,7 +17,7 @@ Terms for how your system runs day to day. You'll encounter these naturally thro
 
 | Term | Definition |
 |---|---|
-| The Loop | The continuous dev/ops cycle through which the system develops and operates. Ops side: Drift Detection → Sweep → Triage. Dev side: Conversation → Artifact Production → Commit. Crossover points connect ops findings to dev work and dev commits to ops state. Each session is one iteration. |
+| Growth and Development Loop | The continuous dev/ops cycle through which the system develops and operates. Ops side: Drift Detection → Sweep → Triage. Dev side: Conversation → Artifact Production → Commit. Crossover points connect ops findings to dev work and dev commits to ops state. Each session is one iteration. |
 | Session | A bounded working conversation between the principal and an AI model. Has a defined lifecycle from initialization through close. |
 | Session Mode | A declared operating mode that shapes session behavior. Set at initialization. |
 | Developer Mode | A session mode focused on internal-facing systemic improvements to the system. |
@@ -30,13 +30,13 @@ Terms for how your system runs day to day. You'll encounter these naturally thro
 | Drift | Changes to the filesystem that occurred outside the current session (e.g., other surfaces, manual edits). Detected at initialization by comparing working tree against last commit. |
 | Retrospective | A brief reflection captured at session close noting what worked, what caused friction, and what improvement is suggested. Accumulated for Triage. |
 | Backlog Grooming | A lightweight assessment of available work during Developer Mode initialization. Synthesizes inflow channels — backlog, markers, carry-forward queue, retrospective themes — and reads vital signs. Informs scope selection. |
-| Sweep | The ops-side inspection stage of The Loop. Scans all artifacts to identify conformance issues, staleness, and extension opportunities. |
+| Sweep | The ops-side inspection stage of the Growth and Development Loop. Scans all artifacts to identify conformance issues, staleness, and extension opportunities. |
 | Triage | The act of assessing observations, grouping related items, and determining disposition: plan, quick fix, or defer. |
 | Review | The act of inspecting output against the library for correctness, completeness, and consistency. |
 | Review Marker | A standalone line at the top of an artifact indicating it needs attention. Always the first non-blank line — never embedded in body text. Surfaced by the Sweep process. |
 | Error | A mistake in process, data, or output. |
 | Process | A defined way of working. |
-| Flow | The rate at which context, decisions, and artifacts move through The Loop without loss or degradation. High flow: sessions pick up cleanly, work moves through stages, knowledge circulates. Low flow: sessions spend energy on normalization, orientation, and rediscovery. |
+| Flow | The rate at which context, decisions, and artifacts move through the Growth and Development Loop without loss or degradation. High flow: sessions pick up cleanly, work moves through stages, knowledge circulates. Low flow: sessions spend energy on normalization, orientation, and rediscovery. |
 | Health | The system's capacity to sustain effective flow across sessions, environments, and contexts. Measured through vital signs. |
 | Health Check | A deep analysis of the system's shape across time, triggered when vital signs indicate degradation or on request. Examines artifact growth, process coverage, error patterns, retrospective themes, and structural observations. Feeds findings into Triage. |
 | Vital Sign | A measurable indicator of system health. Each vital sign has a defined threshold that signals degradation. Read during Backlog Grooming; breaches inform scope selection and may trigger a full Health Check. |
