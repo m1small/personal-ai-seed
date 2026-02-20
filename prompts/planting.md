@@ -8,6 +8,8 @@ This script is a guide, not a rigid questionnaire. Adapt to the user's pace, cur
 
 The AI detects `<!-- UNPLANTED -->` in `glossary.md` during initialization. Instead of proceeding to normal session setup, it runs this conversation. At the end, the marker is removed and the glossary Foundation is populated.
 
+**Sapling detection:** If `prompts/sapling-context.md` exists, this system is a sapling — it includes pre-built branches. Read `prompts/sapling-planting.md` and follow the extended flow, which adds a "Tour the Branches" phase and adapts the welcome and environment discovery steps.
+
 ## Flow
 
 ### 1. Welcome
