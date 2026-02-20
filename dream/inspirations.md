@@ -1,0 +1,4 @@
+# Inspirations
+
+| Date | Entry |
+|---|---|

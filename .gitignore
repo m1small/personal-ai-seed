@@ -1,0 +1,6 @@
+outputs/
+load/
+secrets/
+exports/
+*.tmp
+.DS_Store
