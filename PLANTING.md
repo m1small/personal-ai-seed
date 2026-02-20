@@ -105,6 +105,17 @@ The two sides feed each other. That's the Growth and Development Loop. That's ho
 - **Don't trust agents blindly.** Trust Progression exists for a reason. Let agents earn autonomy through demonstrated performance.
 - **Don't fight the processes.** They're lightweight by design. If something feels heavy, you may be over-applying it. Ask your AI.
 
+## Starting from a Sapling
+
+If you cloned a sapling instead of the seed, your experience is similar but richer:
+
+- **Same planting conversation** — You still name your own terms and build a shared vocabulary. Personalization is not skipped.
+- **Branch tour** — After vocabulary calibration, your AI walks you through what's pre-built: agent templates, data structures, tool contracts. You'll understand what's ready to use and what needs customization.
+- **Guided tool setup** — The sapling includes tool contract templates with setup guidance. Your AI uses these to help you connect the tools the sapling was designed to work with.
+- **Faster first execution** — Because agents, data stores, and decision rules are pre-built, you can switch to Execution Mode sooner. Your first session after planting can be real work.
+
+The Phase 2–4 steps above still apply — you'll customize agents, add your own certifications, and grow the system through use. The sapling just means you start further along.
+
 ## Common Questions
 
 **Can I use this with GPT / Gemini / Llama / local models?**

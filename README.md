@@ -106,9 +106,14 @@ The seed gives you the trunk — processes, schemas, governance, and conventions
 ## The Hierarchy
 
 - **Seed** — What you're looking at. The distributable pattern.
-- **Tree** — What grows from it. Your personal AI system.
+- **Sapling** — A seed with branches already growing. Pre-built agents, data structures, and tool guidance for a specific domain. How one tree shares its growth with others.
+- **Tree** — What grows from a seed or sapling. Your personal AI system.
 - **Grove** — A community of trees. People growing together, sharing patterns.
 - **Forest** — All of us. Everyone building their own Personal AI.
+
+## Saplings
+
+Not everyone starts from scratch. A sapling gives you a head start — pre-built structure in one or more life domains, ready to customize. See **[saplings/README.md](saplings/README.md)** for what's available and how to create your own.
 
 ## We Are All Application Developers
 
