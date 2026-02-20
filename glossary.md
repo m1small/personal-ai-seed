@@ -81,6 +81,7 @@ Terms for the artifacts you create as your system matures.
 | Trust Ledger | The evidence base for agent trust progression. Records observed agent performance from real tasks. Not pruned. Accumulates until promotion, then archived within the ledger for audit trail. See `system/state-trust-ledger.md`. |
 | Adversarial Verification | The requirement that an agent receiving another agent's output challenges it against its own domain knowledge before building on it. Independent of trust level — applies even between Trusted agents. |
 | Promotion | The act of advancing an agent's trust level based on demonstrated performance. See Trust Progression. |
+| Sapling | A distributable Personal AI with pre-grown branches beyond the seed. Includes pre-built agents, certifications, data store structures, and domain-specific processes for a target audience. How a tree shares its growth as a starting point for others. |
 
 ## Integration
 

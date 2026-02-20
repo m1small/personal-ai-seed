@@ -429,3 +429,24 @@ A bounded sub-task that any participant — the principal, the AI model, or a na
 - A subroutine does not change the parent session's mode.
 - A subroutine inherits the parent session's collision check scope. If it needs files outside that scope, it registers them in session state.
 - Output must be self-contained — the primary workflow should not need to parse or complete the subroutine's work.
+
+## Sapling Production
+
+How a tree owner extracts a sapling from their tree for distribution. A sapling is a seed with pre-grown branches — agents, certifications, data store structures, and domain-specific processes for a target audience.
+
+1. **Identify the audience** — Who will use this sapling? What branches would serve them? A sapling for a GTM team differs from a sapling for a research team.
+2. **Identify generalizable vs. specific content** — Separate what transfers (processes, schemas, agent patterns, data structures) from what doesn't (personal data, credentials, trade secrets, individual persona content).
+3. **Fork the seed** — Create a new repository from the seed. The seed's trunk infrastructure (processes, schemas, rules, integration framework) carries forward unchanged.
+4. **Extract and generalize** — Copy relevant artifacts from the source tree to the sapling. Replace proper nouns with role terms (e.g., a person's name → "the principal"). Remove company-specific decision rules. Keep the structural logic and rigor intact.
+5. **Replace specifics with templates** — Data stores get headers but no data rows. Tool contracts get connection guidance but no credentials. Agent definitions get decision rules but no persona references. Certifications get structure but no proprietary domain knowledge.
+6. **Add sapling context** — Create `prompts/sapling-context.md` describing the pre-grown branches. This file is detected by the planting conversation to incorporate a branch tour into the first-run experience.
+7. **Create the sapling definition** — Add a definition file to the seed repo's `saplings/` directory following the Sapling Schema. This is metadata — name, purpose, audience, what's pre-built, where to find it.
+8. **Publish** — Commit and push the sapling repository. Update the seed repo with the sapling definition.
+
+**What stays behind:**
+- Personal data (contacts, companies, communication logs)
+- Persona content (voice, positioning, network profile)
+- Domain certifications with proprietary knowledge
+- Actual credential values or tokens
+- Implementation-specific utilities (the recipient builds these through use)
+- Workflow details tied to specific team configurations
