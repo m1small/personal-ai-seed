@@ -82,7 +82,7 @@ The Loop is the growth mechanism:
 
 ```
 personal-ai-seed/
-  glossary.md              Controlled vocabulary.
+  glossary.md              Shared vocabulary — co-created in your first session.
   processes.md             How work happens.
   CLAUDE.md                Entry point (Claude Code users).
 
@@ -101,7 +101,7 @@ personal-ai-seed/
   examples/                Annotated walkthroughs.
 ```
 
-The seed gives you the trunk — processes, schemas, governance, and conventions. The branches are yours to grow.
+The seed gives you the trunk — processes, schemas, governance, and conventions. The branches are yours to grow. Your first experience is a conversation, not a reading assignment — the planting conversation finds a common language between you and your AI.
 
 ## The Hierarchy
 
@@ -114,7 +114,7 @@ The seed gives you the trunk — processes, schemas, governance, and conventions
 
 Personal AI means you are building a custom system — your own processes, your own agents, your own domain knowledge, your own agentic workflows. This isn't about prompting better. It's about building a system that compounds your capability over time.
 
-The seed teaches this through doing. You don't read about The Loop — you live it from your first session.
+The seed teaches this through doing. Your first session is a conversation that finds a common language. From there, you don't read about The Loop — you live it.
 
 ## Getting Started
 

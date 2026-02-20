@@ -2,6 +2,8 @@
 
 A certification is a knowledge base that agents consult. It combines inline domain knowledge with external references. This walkthrough creates a Wellness Fundamentals certification for the Health Tracker agent.
 
+> **Note:** During the planting conversation, you may have chosen a different name for what the system calls a "Certification" (e.g., Playbook, Knowledge Base, Expertise). Your AI uses your preferred term in conversation, but schema files and directory names use the canonical term "Certification."
+
 ## Step 1: Read the Certification Schema
 
 Open `schemas/certification-schema.md`. Key fields:

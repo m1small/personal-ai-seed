@@ -78,6 +78,8 @@ The principal reviews proposed changelogs before the AI model implements. Approv
 3. Corrections or approval.
 4. Approved term added to glossary, change committed.
 
+**Canonical vs. preferred terms:** System files (processes, schemas, rules) use canonical terms for stability. The glossary Foundation section maps user-preferred names to canonical terms. In conversation, use the user's preferred name. In artifact headers and field names, use the canonical term. This prevents rename cascades while keeping the conversation natural.
+
 ## Initialization
 
 Initialization is handled through two layers:

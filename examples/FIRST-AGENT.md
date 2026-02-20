@@ -2,6 +2,8 @@
 
 This walkthrough creates a simple Health Tracker agent. Follow along with your own domain — the pattern is the same regardless of branch.
 
+> **Note:** During the planting conversation, you may have chosen a different name for what the system calls an "Agent" (e.g., Advisor, Assistant, Specialist). Your AI uses your preferred term in conversation, but schema files and directory names use the canonical term "Agent."
+
 ## Step 1: Read the Agent Schema
 
 Open `schemas/agent-schema.md`. Every agent must conform to this structure. The key fields are:

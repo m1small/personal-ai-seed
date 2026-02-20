@@ -94,3 +94,8 @@ This map holds structural relationships that are not declared in individual arti
 | Bootstrap | references | Glossary |
 | Bootstrap | references | Processes |
 | Bootstrap | references | Environment State Schema |
+| Bootstrap | references | Planting Conversation (`prompts/planting.md`) |
+| Planting Conversation (`prompts/planting.md`) | references | Glossary |
+| Planting Conversation (`prompts/planting.md`) | references | Artifact Production |
+| Planting Conversation (`prompts/planting.md`) | references | Environment State |
+| CLAUDE.md | references | Planting Conversation (`prompts/planting.md`) |

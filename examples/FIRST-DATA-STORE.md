@@ -2,6 +2,8 @@
 
 A data store is persistent, schema-constrained storage that agents read and write. This walkthrough creates a Health Metrics data store for the Health Tracker agent.
 
+> **Note:** During the planting conversation, you may have chosen a different name for what the system calls a "Data Store" (e.g., Dataset, Records, Collection). Your AI uses your preferred term in conversation, but schema files and directory names use the canonical term "Data Store."
+
 ## Step 1: Read the Data Store Schema
 
 Open `schemas/data-store-schema.md`. Key fields:

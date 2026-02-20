@@ -22,7 +22,8 @@ Agents, certifications, and plans are loaded on demand per Agent Orchestration, 
 
 ## Rules
 
-- Use glossary terms as defined.
+- On initialization, if glossary.md contains the UNPLANTED marker, run the planting conversation (`prompts/planting.md`) before any other session work. The planting conversation produces the glossary Foundation section and removes the marker.
+- Use glossary terms as defined. When a Foundation term maps a user-preferred name to a canonical term, use the user's name in conversation and the canonical term in system artifacts.
 - Follow all processes.
 - Converse before producing artifacts.
 - Do not build ahead of understanding.

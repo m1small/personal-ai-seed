@@ -9,7 +9,7 @@ You need:
 - An AI coding tool that can read and edit files (Claude Code, Cursor, GitHub Copilot, etc.)
 - A willingness to build and use your system concurrently — that's how it grows
 
-## Phase 1: Plant (10 minutes)
+## Phase 1: Plant (20 minutes)
 
 ### Fork and clone
 
@@ -19,59 +19,26 @@ git clone https://github.com/YOUR-USERNAME/personal-ai-seed.git
 cd personal-ai-seed
 ```
 
-### Read the framework
+### Have a conversation
 
-Read these two files. They are the trunk of your tree:
-
-1. **`glossary.md`** — The vocabulary. Every term used in the system has an agreed definition.
-2. **`processes.md`** — How work happens. Focus on: The Loop, Initialization, Session Lifecycle, Artifact Production.
-
-Don't memorize them — your AI will reference them every session. But read them once so you understand what you're building on.
-
-## Phase 2: First Session — Grow Your Trunk (30 minutes)
-
-### Open your first session
-
-Open the repository in your AI coding tool. If you're using Claude Code, it will automatically read `CLAUDE.md` and initialize.
+Open the repository in your AI coding tool. If you're using Claude Code, it will automatically read `CLAUDE.md` and detect that this is a fresh seed.
 
 For other tools, paste the contents of `prompts/bootstrap.md` as your opening prompt.
 
-### Declare Developer Mode
+**What happens next:** Your AI detects that the glossary hasn't been planted yet and starts a guided conversation — the **planting conversation**. This is your first experience with the system, and it's a conversation, not a reading assignment.
 
-Tell your AI: **"Developer Mode."**
+The planting conversation will:
+1. **Introduce the tree metaphor** — roots, trunk, branches, canopy — so you understand the shape of what you're building
+2. **Discover your first branch** — what area of your life will benefit most from an AI that remembers and builds over time?
+3. **Find a common language** — walk through ~10 core concepts and let you name them in your own words. The system has internal terms, but *your* vocabulary is what matters in conversation.
+4. **Produce your first artifact** — the glossary Foundation section, mapping your terms to the system's. Your first commit.
+5. **Discover your environment** — probe what tools you have connected and document them
 
-This is your first session. The AI will:
-1. Read the library (glossary, processes, schemas)
-2. Run Drift Detection (nothing to detect yet — clean start)
-3. Register this session in `system/state-session.md`
-4. Ask you what to work on
+**Why this matters:** The glossary was the very first thing built in the system this seed was extracted from. It was built through conversation — two parties finding a common language. That process is what makes a Personal AI personal. You're not memorizing someone else's dictionary. You're creating your own.
 
-### Create your environment state file
+## Phase 2: Grow Your First Branch (next session)
 
-Tell the AI what tools you have connected. It will probe your environment and produce an environment state file at `system/env-{your-name}.md` documenting:
-- Which surface you're on (Claude Code, Cursor, etc.)
-- Which tools are connected and their connection methods
-- Verified capabilities for each tool
-- Known limitations
-
-This is your root system — what your tree can draw from.
-
-### Update CLAUDE.md (or your platform's equivalent)
-
-Update the entry point to reference your new environment file. This ensures every future session knows your setup.
-
-### First commit
-
-Your AI will commit:
-- Environment state file
-- Updated CLAUDE.md
-- Session state registration
-
-**Congratulations — your tree has roots and the beginning of a trunk.**
-
-## Phase 3: Grow Your First Branch (next session)
-
-A branch is a life domain. Pick one that matters to you right now:
+A branch is a life domain. During the planting conversation, you identified one that matters to you. Now build it.
 
 | Branch | What It Might Contain |
 |---|---|
@@ -105,7 +72,7 @@ If your branch needs persistent data, follow the Data Store Schema (`schemas/dat
 
 Register it in `system/reg-data-stores.md`.
 
-## Phase 4: First Execution (next session)
+## Phase 3: First Execution (next session)
 
 ### Switch to Execution Mode
 
@@ -121,7 +88,7 @@ Now use your system. Ask your agent to do real work. The AI will:
 
 At session close, the AI captures a retrospective: what worked, what caused friction, what to improve. This is The Loop in action — using the system teaches you what to build next.
 
-## Phase 5: The Loop Takes Hold
+## Phase 4: The Loop Takes Hold
 
 From here, growth is organic:
 
@@ -134,7 +101,6 @@ The two sides feed each other. That's The Loop. That's how your tree grows.
 ## What Not to Do
 
 - **Don't try to build everything at once.** One branch at a time. Let execution reveal what's needed.
-- **Don't skip the vocabulary.** The glossary exists so you and your AI share a language. Ambiguity is friction.
 - **Don't over-certify early.** Start with minimal domain knowledge. Real work will surface what your agents actually need to know.
 - **Don't trust agents blindly.** Trust Progression exists for a reason. Let agents earn autonomy through demonstrated performance.
 - **Don't fight the processes.** They're lightweight by design. If something feels heavy, you may be over-applying it. Ask your AI.
@@ -153,5 +119,8 @@ Typical trees stay under a few hundred files. Everything is plain text. Git hand
 **Can I share parts of my tree with others?**
 Yes — that's what certifications and agent definitions are for. They're portable by design. A certification from your Health branch could help someone else's Health branch. Schemas ensure compatibility.
 
-**What if I want to rename things?**
-Go for it. The glossary is yours. Just update all references — the AI will help you find them.
+**What if I want to rename things later?**
+Go for it. The glossary Foundation captures your vocabulary. Update it, and the AI adjusts. System files use canonical terms internally, so renaming your preferred terms doesn't cascade through the whole library.
+
+**What if I fork someone else's planted tree?**
+The AI will notice the glossary has already been planted (no UNPLANTED marker) and ask if you want to keep the existing vocabulary or re-plant with your own terms.

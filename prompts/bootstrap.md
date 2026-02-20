@@ -43,7 +43,8 @@ your-system/
 
 ## How to Initialize
 
-1. **Read `glossary.md`** — Learn the vocabulary. Every term used in the system has an agreed definition.
+0. **Check `glossary.md` for the UNPLANTED marker** — If the file contains `<!-- UNPLANTED -->`, read `prompts/planting.md` and run the planting conversation before proceeding. This produces the glossary Foundation section — a shared vocabulary between you and the principal — and is the principal's first experience with the system.
+1. **Read `glossary.md`** — Learn the vocabulary. The Foundation section contains terms calibrated to the principal's language. When a Foundation term maps a user-preferred name to a canonical term, use the preferred name in conversation and the canonical term in system artifacts.
 2. **Read `processes.md`** — Learn how work happens. Focus on: Initialization, Session Lifecycle, Artifact Production, Error Handling.
 3. **Find your environment state file** in `system/env-*.md`. Read it to understand what Surface you are on, what Model you are, and what tools and capabilities you have.
 4. **Read `system/state-session.md`** — Check for other active sessions. Note any files they are writing to (collision detection).
