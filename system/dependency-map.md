@@ -99,3 +99,11 @@ This map holds structural relationships that are not declared in individual arti
 | Planting Conversation (`prompts/planting.md`) | references | Artifact Production |
 | Planting Conversation (`prompts/planting.md`) | references | Environment State |
 | CLAUDE.md | references | Planting Conversation (`prompts/planting.md`) |
+| Building Block Schema | constrains | Sapling Schema |
+| Sapling Schema | constrains | all sapling definitions (`saplings/`) |
+| Sapling Production (process) | references | Sapling Schema |
+| Sapling Production (process) | references | Artifact Production |
+| Sapling Planting (`prompts/sapling-planting.md`) | references | Planting Conversation (`prompts/planting.md`) |
+| Sapling Planting (`prompts/sapling-planting.md`) | references | Sapling Schema |
+| Sapling Planting (`prompts/sapling-planting.md`) | references | Glossary |
+| Bootstrap | references | Sapling Planting (`prompts/sapling-planting.md`) |

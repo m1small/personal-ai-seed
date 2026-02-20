@@ -37,4 +37,4 @@ Each sapling definition lives in this directory as a markdown file following the
 
 | Sapling | Audience | What's Pre-built |
 |---|---|---|
-| *(saplings will be listed here as they are created)* | | |
+| [Revenium GTM Team](revenium-gtm-team.md) | GTM team members — AEs, SDRs, customer-facing roles | Relationship Management infrastructure, CRM data stores, Sales Development and Executive Assistant agent templates, tool contract templates |
